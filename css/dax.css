@@ -1,0 +1,38 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    background-color: rgb(226, 8, 8); 
+}
+footer{
+    background-color: black;
+}
+.card{
+    justify-content: space-between !important;
+}
+.cr{
+    justify-content: space-between;
+}
+.footer{
+    justify-content: space-between;
+}
+@media screen and (max-width:642){
+    .card img{
+        height: 20vh;
+    }
+}
+@media screen and (max-width:465px){
+    .card{
+        width: 40% !important;
+    }
+    .card img{
+        height: 20vh;
+    }
+    .card-body h2{
+        font-size: 20px;
+    }
+    .card-body p{
+        font-size: 10px;
+    }
+}
